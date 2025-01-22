@@ -16,7 +16,7 @@
 Our MVAD is based on [ADer](https://github.com/zhangzjn/ADer).
 </div>
 
-## 📜 Multi-class Results on Real-IAD multi-view setting
+## 📜 Multi-class Results on Real-IAD Multi-View Setting
 
 Subscripts `S`, `I`, and `R` represent `rsample-level`, `image-level`, and `pixel-level`, respectively.
 
