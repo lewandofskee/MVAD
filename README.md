@@ -16,6 +16,15 @@
 Our MVAD is based on [ADer](https://github.com/zhangzjn/ADer).
 </div>
 
+## 📜 Multi-class Results on Real-IAD multi-view setting
+
+Subscripts `S`, `I`, and `R` represent `rsample-level`, `image-level`, and `pixel-level`, respectively.
+
+### MVAD Results
+|   Dataset    | mAU-ROC<sub>S</sub> | mAP<sub>S</sub> | m*F*1-max<sub>S</sub> | mAU-ROC<sub>I</sub> | mAP<sub>I</sub> | m*F*1-max<sub>I</sub> | mAU-ROC<sub>P</sub> | mAP<sub>P</sub> | m*F*1-max<sub>P</sub> | mAU-PRO<sub>P</sub> |                                                                            <span style="color:blue">Download</span>                                                                            |
+|:-----------:|:-------------------:|:---------------:|:-----------:|:-------------------:|:---------------:|:---------------------:|:-------------------:|:---------------:|:---------------------:|:-------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|  Real-IAD   |        90.2         |      95.3       |         90.1          |        86.6         |      84.8       |        77.2          |        97.9         |         30.3          |        36.8         |      91.2       | [log](log/log_test.txt) & [weight](log/mvad.pth) |
+
 ## 🛠️ Getting Started
 
 ### Installation
@@ -29,6 +38,7 @@ Our MVAD is based on [ADer](https://github.com/zhangzjn/ADer).
   pip3 install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 --index-url https://download.pytorch.org/whl/cu118
   (or) conda install pytorch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 pytorch-cuda=11.8 -c pytorch -c nvidia
   ```
+
   
 ### Dataset Preparation 
 ### Multi-view Real-IAD Dataset
