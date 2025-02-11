@@ -58,7 +58,7 @@ CUDA_VISIBLE_DEVICES=0 python run.py -c configs/mvad/mvad_realiad.py -m train
 - Modify `trainer.resume_dir` or `model.kwargs['checkpoint_path']`
 - Test with single GPU example: 
 ```
-CUDA_VISIBLE_DEVICES=0 python run.py -c configs/mvad/mvad_realiad.py -m test model.model_kwargs.checkpoint_path=log/mvad.pth
+CUDA_VISIBLE_DEVICES=0 python run.py -c configs/mvad/mvad_realiad.py -m test model.kwargs.checkpoint_path=log/mvad.pth
 ```
 
 ## Citation
