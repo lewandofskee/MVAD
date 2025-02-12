@@ -70,7 +70,7 @@ class cfg(cfg_common, cfg_dataset_default, cfg_model_mvad):
 		self.model_s.kwargs = dict(pretrained=False, checkpoint_path='', strict=False)
 		self.model = Namespace()
 		self.model.name = 'mvad'
-		self.model.kwargs = dict(pretrained=False, checkpoint_path='', strict=True, model_t=self.model_t,
+		self.model.kwargs = dict(pretrained=False, checkpoint_path='', strict=False, model_t=self.model_t,
 								 model_s=self.model_s)
 
 		# ==> evaluator
