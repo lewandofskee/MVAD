@@ -2,8 +2,8 @@
 <div align="center">
 <h3>[TMM 2025] Learning Multi-view Anomaly Detection with Efficient Adaptive Selection</h3>
 
-[Haoyang He<sup>1*</sup>](https://scholar.google.com/citations?hl=zh-CN&user=8NfQv1sAAAAJ),
-[Jiangning Zhang<sup>2*</sup>](https://zhangzjn.github.io),
+[Haoyang He<sup>1</sup>](https://scholar.google.com/citations?hl=zh-CN&user=8NfQv1sAAAAJ),
+[Jiangning Zhang<sup>1†</sup>](https://zhangzjn.github.io),
 [Guanzhong Tian<sup>1</sup>](https://scholar.google.com/citations?hl=zh-CN&user=0q-7PI4AAAAJ),
 [Chengjie Wang<sup>2</sup>](https://scholar.google.com/citations?hl=zh-CN&user=fqte5H4AAAAJ),
 [Lei Xie<sup>1†</sup>](https://scholar.google.com/citations?hl=zh-CN&user=7ZZ_-m0AAAAJ)
