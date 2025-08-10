@@ -1,6 +1,6 @@
 
 <div align="center">
-<h3>Learning Multi-view Anomaly Detection with Efficient Adaptive Selection</h3>
+<h3>[TMM 2025] Learning Multi-view Anomaly Detection with Efficient Adaptive Selection</h3>
 
 [Haoyang He<sup>1*</sup>](https://scholar.google.com/citations?hl=zh-CN&user=8NfQv1sAAAAJ),
 [Jiangning Zhang<sup>2*</sup>](https://zhangzjn.github.io),
@@ -15,6 +15,8 @@
 
 Our MVAD is based on [ADer](https://github.com/zhangzjn/ADer).
 </div>
+
+<h3>Congratulations! Our MVAD has been accepted at the IEEE Transactions on Multimedia!</h3>
 
 ## 📜 Multi-class Results on Real-IAD Multi-View Setting
 
